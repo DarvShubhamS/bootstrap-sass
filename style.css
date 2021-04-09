@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F4F4F4;;
+}
+
+ul {
+    list-style: none;
+    padding:0px
+}
+
+header {
+    border-bottom: 1px solid gray;
+    background: white;
+}
+
+nav.navbar.navbar-light {
+    padding: 0px;
+}
+div.container-fluid.pt-0 {
+    margin:0px;
+    padding: 0px;
+}
+ul.navbar {
+    margin:0px
+}
+
+input[type="button"] {
+    border: 1px solid #CED4DA;
+}
+
+a {
+    color: black;
+}
+a img {
+    height: 20px;
+}
+
+main {
+    background: #F4F4F4;
+}
+
+.services {
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    height: 150px;
+    background: white;
+    padding:20px
+}
+
+.jumbotron_section {
+    
+    padding-bottom: 20px;
+}
+
+.service-content {
+    background: white;
+    height: 150px;
+}
+
+.service-item {
+    padding: 8px;
+}
+
+.service-item h5 {
+    margin-top: 5px;
+    color:#037EBA ;
+}
+
+.service-content .col-md {
+    border-right: 1px solid gray;
+    height: 150px;
+}
+
+.service-content .col-md:last-child {
+    border: none;
+}
+
+
+.service-content.col-sm {
+    border-right: 1px solid black;
+}
+
+.about {
+    padding: 18px;
+    background: white;
+    margin: 0px;
+}
+
+.about p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:gray;
+}
+
+.about button {
+    background-color: #037EBA;
+    color: white;
+    width: 200px;
+    padding:10px
+}
+
+.card_section {
+    text-align: center;
+    padding-bottom: 20px;
+   
+}
+
+.demo-content {
+    padding:0px
+}
+
+.card_section img {
+  height: 124px;
+} 
+
+.card_1 {
+    background-color: #037EBA;
+    
+}
+
+.card_2 {
+    background-color: #A0AF46;
+}
+
+.card_3 {
+    background-color: #F88244;
+}
+
+.data {
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.projects_section {
+    background: white;
+    padding-bottom: 20px;
+   
+}
+
+.projects_section h2 {
+    color:#037EBA ;
+    margin-top: 20px;
+    
+}
+
+.projects_section h4 {
+    display: inline;
+    background: #037EBA;
+    width: auto;
+    margin:0px;
+    padding: 5px;
+}
+
+.projects_section .card-body {
+    color: white;
+}
+
+.projects_section button {
+    background: #037EBA;
+    color: white;
+  
+}
+
+.project_card img
+{
+    height: 100%;
+}
+
+.card_content p{
+    margin: 10px;
+}
+
+.card-img-overlay {
+    padding:0px;
+}
+
+.section_profile {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.section_profile button{
+    background: #037EBA;
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+    padding:10px
+}
+
+.section_words {
+    background: white;
+}
+
+.profile_info {
+    text-align: center;
+}
+
+.profile_img {
+    background: url('./assets/histogram.jpg');
+    position: relative;
+   
+}
+
+.profile_img img{
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.words_content {
+    padding: 20px;
+}
+
+.tags button {
+    background: #037EBA;
+    color: white;
+    margin: 5px;
+}
+
+footer {
+    background: #F4F4F4;
+
+}
+
+footer a {
+    color: #037EBA;
+    text-decoration: none;
+   
+}
+
+footer img {
+    width: 20%;
+}
+
+footer h4 {
+    color: gray;
+}
+
+footer p {
+    color:gray
+}
+
+.articles_ul a::before {
+    content:' >  ';
+    color:black;
+}
+
+.set_width {
+    width: 80%;
+    margin: 0 auto;
+}
