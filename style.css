@@ -203,17 +203,32 @@ main {
 
 .profile_info {
     text-align: center;
+    
+}
+
+.profile_info .card {
+    border:1px solid white;
+}
+
+
+.profile_img_container {
+    background: url('./assets/histogram.jpg');
+    position: relative;
+    height: 100px;
 }
 
 .profile_img {
-    background: url('./assets/histogram.jpg');
-    position: relative;
-   
+    position: absolute;
+    width: 100%;
 }
 
 .profile_img img{
     margin-top: 50px;
     border-radius: 50%;
+}
+
+.info {
+    margin-top: 20px;
 }
 
 .words_content {
