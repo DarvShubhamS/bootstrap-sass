@@ -14,7 +14,7 @@ ul {
 }
 
 header {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #DADCE0;
     background: white;
 }
 
@@ -54,7 +54,8 @@ main {
 .logo {
     height: 150px;
     background: white;
-    padding:20px
+    padding:20px;
+    border: 1px solid #DADCE0;
 }
 
 .jumbotron_section {
@@ -65,7 +66,9 @@ main {
 .service-content {
     background: white;
     height: 150px;
+    border: 1px solid #DADCE0;
 }
+
 
 .service-item {
     padding: 8px;
@@ -77,7 +80,7 @@ main {
 }
 
 .service-content .col-md {
-    border-right: 1px solid gray;
+    border-right: 1px solid #DADCE0;
     height: 150px;
 }
 
@@ -243,7 +246,9 @@ main {
 }
 
 footer {
-    background: #F4F4F4;
+    background: #e7e7e7;
+    padding: 20px;
+    border-top: 1px solid #DADCE0;
 
 }
 
@@ -273,6 +278,10 @@ footer p {
 .set_width {
     width: 80%;
     margin: 0 auto;
+}
+
+#fttr {
+    width: 90%;
 }
 
 
