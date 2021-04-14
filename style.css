@@ -274,3 +274,10 @@ footer p {
     width: 80%;
     margin: 0 auto;
 }
+
+
+@media (max-width:1368px) {
+    .set_width {
+        width: 90%;
+    }
+}
